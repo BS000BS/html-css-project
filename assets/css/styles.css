@@ -393,6 +393,35 @@ footer a {
 
 /* Mediaquery */
 
+@media (min-width: 1700px) {
+
+    header .logo img {
+        width: 220px;
+    }
+
+    main .wrapper h2 {
+        font-size: 3rem;
+    }
+
+    nav ul {
+        line-height: 2.2rem;
+        font-size: 1.2rem;
+    }
+
+    section#menu .container .pizzas-wrapper .pizzas,
+    section#menu .container .sandwiches-wrapper .sandwiches,
+    section#menu .container .drinks-wrapper .drinks {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 4vw;
+    }
+
+    section#menu .container .pizzas-wrapper .pizzas .pizza img,
+    section#menu .container .sandwiches-wrapper .sandwiches .sandwich img,
+    section#menu .container .drinks-wrapper .drinks .drink img {
+        height: 15vh;
+    }
+}
+
 @media (max-width: 750px) {
 
     section#lokacioni .container .location-wrapper iframe {
